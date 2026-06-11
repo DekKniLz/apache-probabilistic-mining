@@ -1,0 +1,18 @@
+# Virtual envs
+venv/
+__pycache__/
+*.pyc
+
+# Mined repo
+cassandra/
+repos/
+repos_workspace/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Output datasets
+output/
+*.csv
+*.json

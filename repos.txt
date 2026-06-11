@@ -1,0 +1,3 @@
+https://github.com/apache/cassandra.git
+https://github.com/apache/kafka.git
+https://github.com/apache/flink.git
