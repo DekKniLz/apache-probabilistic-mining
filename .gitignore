@@ -16,3 +16,9 @@ Thumbs.db
 output/
 *.csv
 *.json
+
+# Output plots for analysis
+plots/
+*.png
+
+.env
