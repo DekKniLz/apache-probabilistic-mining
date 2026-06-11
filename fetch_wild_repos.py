@@ -15,8 +15,8 @@ HEADERS = {
 }
 
 SEARCH_TERMS = ["BloomFilter", "HyperLogLog", "CountMinSketch", "CuckooFilter", "HyperLogLogPlus"]
-MIN_STARS = 50
-MIN_FORKS = 10
+MIN_STARS = 100
+MIN_FORKS = 25
 
 def get_repo_details(full_name):
     url = f"https://api.github.com/repos/{full_name}"
