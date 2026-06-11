@@ -195,6 +195,7 @@ def clone_and_mine(repo_urls_file):
     export_results(all_findings)
 
 
+
 if __name__ == "__main__":
     target_config_file = "repos.txt"
     clone_and_mine(target_config_file)
