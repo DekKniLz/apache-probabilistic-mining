@@ -10,7 +10,7 @@ def main():
     Main function to orchestrate the software repository mining pipeline.
     """
     scripts = [
-        "fetch_wild_repos.py",
+        "fetch_apache_repos.py",
         "miner.py",
         "analytics.py"
     ]

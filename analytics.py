@@ -91,7 +91,7 @@ def generate_msr_plots(df):
     # --- RQ1: Most Used Structures ---
     plt.figure(figsize=(10, 6))
     sns.countplot(data=df, x='pds_family', order=df['pds_family'].value_counts().index, hue='pds_family', palette='viridis', legend=False)
-    plt.title('RQ1: Adoption of Probabilistic Data Structures in Real-World Projects', fontweight='bold', pad=15)
+    plt.title('RQ1: Adoption of Probabilistic Data Structures in Apache Foundation Projects', fontweight='bold', pad=15)
     plt.ylabel('Frequency (AST Occurrences)')
     plt.xlabel('PDS Family')
     plt.xticks(rotation=15)
@@ -104,7 +104,7 @@ def generate_msr_plots(df):
     plt.figure(figsize=(12, 6))
     domain_counts = df.groupby(['usage_domain', 'pds_family']).size().reset_index(name='count')
     sns.barplot(data=domain_counts, x='usage_domain', y='count', hue='pds_family', palette='Set2')
-    plt.title('RQ2: Inferred Architectural Domain Context', fontweight='bold', pad=15)
+    plt.title('RQ2: Inferred Architectural Domain Context (ASF Ecosystem)', fontweight='bold', pad=15)
     plt.ylabel('File Count')
     plt.xlabel('Inferred Domain')
     plt.xticks(rotation=15)
@@ -129,7 +129,7 @@ def generate_msr_plots(df):
     # --- RQ4: Legacy vs Modern ---
     plt.figure(figsize=(8, 6))
     sns.countplot(data=df, x='tech_generation', order=['Legacy', 'Modern'], hue='tech_generation', palette='flare', legend=False)
-    plt.title('RQ4: Technological Debt (Legacy vs. Modern Alternatives)', fontweight='bold', pad=15)
+    plt.title('RQ4: Technological Debt (Legacy vs. Modern Alternatives in ASF)', fontweight='bold', pad=15)
     plt.ylabel('Implementation Count')
     plt.xlabel('Technology Generation')
     plt.figtext(0.5, -0.02, "*Legacy (Bloom, HLL) vs. Modern (Cuckoo, CMS)", ha="center", fontsize=10, bbox={"facecolor":"orange", "alpha":0.2, "pad":5})
