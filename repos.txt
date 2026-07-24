@@ -29,10 +29,8 @@ https://github.com/apache/amoro.git
 https://github.com/apache/ant-antlibs-antunit.git
 https://github.com/apache/ant-antlibs-compress.git
 https://github.com/apache/ant-antlibs-cyclonedx.git
-https://github.com/apache/ant-antlibs-dotnet.git
 https://github.com/apache/ant-antlibs-props.git
 https://github.com/apache/ant-antlibs-s3.git
-https://github.com/apache/ant-antlibs-vss.git
 https://github.com/apache/ant-ivy.git
 https://github.com/apache/ant.git
 https://github.com/apache/apisix-java-plugin-runner.git
@@ -190,6 +188,7 @@ https://github.com/apache/commons-text.git
 https://github.com/apache/commons-validator.git
 https://github.com/apache/commons-vfs.git
 https://github.com/apache/commons-weaver.git
+https://github.com/apache/commons-xml.git
 https://github.com/apache/continuum.git
 https://github.com/apache/cordova-plugin-inappbrowser.git
 https://github.com/apache/creadur-rat.git
@@ -330,6 +329,7 @@ https://github.com/apache/geronimo-xbean.git
 https://github.com/apache/geronimo-yoko.git
 https://github.com/apache/gobblin.git
 https://github.com/apache/gora.git
+https://github.com/apache/grails-intellij-plugin.git
 https://github.com/apache/gravitino.git
 https://github.com/apache/groovy.git
 https://github.com/apache/guacamole-client.git
@@ -369,9 +369,7 @@ https://github.com/apache/incubator-kie-drools.git
 https://github.com/apache/incubator-kie-kogito-apps.git
 https://github.com/apache/incubator-kie-kogito-benchmarks.git
 https://github.com/apache/incubator-kie-kogito-examples.git
-https://github.com/apache/incubator-kie-kogito-runtimes.git
 https://github.com/apache/incubator-kie-optaplanner-quickstarts.git
-https://github.com/apache/incubator-kie-optaplanner.git
 https://github.com/apache/incubator-myriad.git
 https://github.com/apache/incubator-optiq-csv.git
 https://github.com/apache/incubator-optiq-linq4j.git
@@ -571,7 +569,6 @@ https://github.com/apache/nutch-webapp.git
 https://github.com/apache/nutch.git
 https://github.com/apache/nuvem.git
 https://github.com/apache/ofbiz-framework.git
-https://github.com/apache/ofbiz-plugins.git
 https://github.com/apache/oltu.git
 https://github.com/apache/openejb.git
 https://github.com/apache/openjpa.git
@@ -588,6 +585,7 @@ https://github.com/apache/openwebbeans.git
 https://github.com/apache/openwhisk-intellij-plugin.git
 https://github.com/apache/openwhisk-runtime-java.git
 https://github.com/apache/orc.git
+https://github.com/apache/ossie-temp.git
 https://github.com/apache/ozhera.git
 https://github.com/apache/ozone.git
 https://github.com/apache/paimon-presto.git
@@ -689,7 +687,6 @@ https://github.com/apache/shardingsphere.git
 https://github.com/apache/shenyu-client-java.git
 https://github.com/apache/shenyu-plugin-store.git
 https://github.com/apache/shenyu-wasm.git
-https://github.com/apache/shenyu-watcher.git
 https://github.com/apache/shenyu.git
 https://github.com/apache/shiro.git
 https://github.com/apache/sis.git
