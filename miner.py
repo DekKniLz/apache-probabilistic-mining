@@ -8,7 +8,7 @@ from tree_sitter import Language, Parser
 import tree_sitter_java
 
 MAX_FILE_SIZE_MB = 2  
-TARGET_STRUCTURES = {"BloomFilter", "IFilter", "HyperLogLog", "CountMinSketch", "CuckooFilter", "HyperLogLogPlus"}
+TARGET_STRUCTURES = {"BloomFilter", "IFilter", "HyperLogLog", "CountMinSketch", "CuckooFilter", "HyperLogLogPlus", "CountSketch", "Sketch"}
 
 parser = Parser()
 parser.language = Language(tree_sitter_java.language())
@@ -46,7 +46,8 @@ def mine_repository(repo_path):
 
 def clone_and_mine():
     with open("repos.txt", 'r') as f: urls = [l.strip() for l in f if l.strip()]
-    all_findings, workspace = [], "./repos_workspace"
+    all_findings = []
+    workspace = "./repos_workspace"
     os.makedirs(workspace, exist_ok=True)
 
     for i, url in enumerate(urls):
