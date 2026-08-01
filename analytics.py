@@ -1,5 +1,13 @@
 import os
 import re
+import sys
+
+_python_tcl_dir = os.path.join(sys.base_prefix, "tcl")
+if os.path.isdir(os.path.join(_python_tcl_dir, "tcl8.6")):
+    os.environ.setdefault("TCL_LIBRARY", os.path.join(_python_tcl_dir, "tcl8.6"))
+if os.path.isdir(os.path.join(_python_tcl_dir, "tk8.6")):
+    os.environ.setdefault("TK_LIBRARY", os.path.join(_python_tcl_dir, "tk8.6"))
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -51,6 +59,8 @@ MODERN_ALGORITHMS = [
     "Cuckoo Filter", "Count-Min Sketch", "Ribbon Filter", "XOR Filter",
     "Count Sketch", "CPC", "Counter Stacks", "SHARDS",
 ]
+
+KNOWN_EXTERNAL_LIBS = ['guava', 'algebird', 'clearspring', 'fastutil', 'apache.commons']
 
 
 def _clean_identifier(raw_class_name):
@@ -116,19 +126,31 @@ def infer_usage_domain(path):
 
 
 def determine_origin(row):
-    """RQ3: Determines if the implementation is a custom build or a third-party library."""
-    if row['context'] == 'INSTANTIATION':
-        return 'Internal/Native Build'
+    """RQ3: Clasifica el origen de la implementación.
 
-    import_str = str(row['target_structure']).lower()
+    IMPORTANTE: esta clasificación es best-effort. Para una INSTANTIATION,
+    no podemos determinar con certeza si la clase proviene de una librería
+    externa o de código propio sin cruzarla con el import resuelto en el
+    mismo archivo (dato que miner.py no captura todavía). Por eso las
+    instanciaciones se marcan como 'Unresolved' en vez de asumir que son
+    internas.
+    """
+    context = row['context']
+    target_str = str(row['target_structure']).lower()
     repo_name = str(row['repository']).lower()
 
-    if repo_name in import_str:
-        return 'Custom Implementation'
-    if any(lib in import_str for lib in ['guava', 'algebird', 'clearspring', 'fastutil', 'apache.commons']):
+    if any(lib in target_str for lib in KNOWN_EXTERNAL_LIBS):
         return 'Third-Party Library'
 
-    return 'Standard/Other External'
+    if context == 'IMPORT':
+        if repo_name in target_str:
+            return 'Custom Implementation'
+        return 'External (Unclassified)'
+
+    if context == 'INSTANTIATION':
+        return 'Unresolved (needs import cross-reference)'
+
+    return 'Unresolved'
 
 
 def enrich_dataset(df):
@@ -158,6 +180,25 @@ def enrich_dataset(df):
     df = df[(df['pds_category'] != 'Unclassified') & (df['pds_algorithm'] != 'Unknown Algorithm')]
 
     return df
+
+
+def coverage_stats(df, group_col):
+    """Reporta cobertura en tres niveles para una columna dada
+    (por ejemplo 'pds_algorithm' o 'pds_category'):
+    - n_occurrences: total de nodos AST detectados (cuenta cruda)
+    - n_files: archivos distintos donde aparece
+    - n_repos: repositorios distintos donde aparece
+    Esto evita que un solo repositorio grande domine las estadísticas.
+    """
+    return (
+        df.groupby(group_col)
+        .agg(
+            n_occurrences=(group_col, 'size'),
+            n_files=('relative_path', 'nunique'),
+            n_repos=('repository', 'nunique'),
+        )
+        .sort_values('n_repos', ascending=False)
+    )
 
 
 def generate_msr_plots(df):
@@ -205,14 +246,15 @@ def generate_msr_plots(df):
     plt.figure(figsize=(12, 6))
     domain_counts = df.groupby(['usage_domain', 'pds_category']).size().reset_index(name='count')
     sns.barplot(data=domain_counts, x='usage_domain', y='count', hue='pds_category', palette='Set2')
-    plt.title('RQ2: Inferred Architectural Domain Context (ASF Ecosystem)', fontweight='bold', pad=15)
+    plt.title('RQ2: Inferencia contextual basada en rutas de archivo (no validación arquitectónica)', fontweight='bold', pad=15)
+    plt.figtext(0.5, -0.02, "*usage_domain se infiere de palabras clave en la ruta del archivo, no de un análisis arquitectónico validado.", ha="center", fontsize=9, bbox={"facecolor": "orange", "alpha": 0.2, "pad": 5})
     plt.ylabel('File Count')
     plt.xlabel('Inferred Domain')
     plt.xticks(rotation=15)
     plt.legend(title='PDS Category', loc='upper right')
     sns.despine()
     plt.tight_layout()
-    plt.savefig(f"{PLOTS_DIR}/RQ2_Usage_Domain.png", dpi=300)
+    plt.savefig(f"{PLOTS_DIR}/RQ2_Usage_Domain.png", dpi=300, bbox_inches="tight")
     plt.close()
 
     # --- RQ3: Custom vs Third-Party ---
@@ -230,7 +272,7 @@ def generate_msr_plots(df):
     # --- RQ4: Legacy vs Modern (based on pds_algorithm) ---
     plt.figure(figsize=(8, 6))
     sns.countplot(data=df, x='tech_generation', order=['Legacy', 'Modern'], hue='tech_generation', palette='flare', legend=False)
-    plt.title('RQ4: Technological Debt (Legacy vs. Modern Alternatives in ASF)', fontweight='bold', pad=15)
+    plt.title('RQ4: Distribución de algoritmos según taxonomía tecnológica definida', fontweight='bold', pad=15)
     plt.ylabel('Implementation Count')
     plt.xlabel('Technology Generation')
     plt.figtext(0.5, -0.02, "*Legacy vs. Modern classification is based on the specific PDS algorithm (pds_algorithm).", ha="center", fontsize=10, bbox={"facecolor": "orange", "alpha": 0.2, "pad": 5})
@@ -249,6 +291,30 @@ def export_to_json(df):
     print("[SUCCESS] JSON export completed.")
 
 
+def compute_extractor_metrics(gold_labels_path):
+    """Calcula precision/recall/F1 y matriz de confusión del extractor
+    contra una muestra etiquetada manualmente.
+
+    gold_labels_path: ruta a un CSV con columnas:
+    - sample_id
+    - predicted_algorithm  (lo que detectó miner.py / normalize_pds_algorithm)
+    - true_algorithm       (la etiqueta correcta, asignada a mano)
+
+    Esta muestra NO se genera automáticamente; debe construirse mediante
+    revisión manual estratificada (ver Fase 3 del plan de validación).
+    """
+    from sklearn.metrics import classification_report, confusion_matrix
+
+    gold = pd.read_csv(gold_labels_path)
+    report = classification_report(
+        gold['true_algorithm'], gold['predicted_algorithm'],
+        output_dict=True, zero_division=0,
+    )
+    labels = sorted(set(gold['true_algorithm']) | set(gold['predicted_algorithm']))
+    cm = confusion_matrix(gold['true_algorithm'], gold['predicted_algorithm'], labels=labels)
+    return {"report": report, "confusion_matrix": cm.tolist(), "labels": labels}
+
+
 def main():
     if not os.path.exists(DATASET_PATH):
         print(f"[ERROR] Dataset not found at {DATASET_PATH}. Please run miner.py first.")
@@ -262,6 +328,12 @@ def main():
         return
 
     df = enrich_dataset(df)
+    coverage_by_algorithm = coverage_stats(df, 'pds_algorithm')
+    coverage_by_category = coverage_stats(df, 'pds_category')
+    coverage_by_algorithm.to_json(f"{os.path.dirname(JSON_OUTPUT_PATH)}/coverage_by_algorithm.json", orient='index', indent=4)
+    coverage_by_category.to_json(f"{os.path.dirname(JSON_OUTPUT_PATH)}/coverage_by_category.json", orient='index', indent=4)
+    print("[INFO] Coverage stats (occurrences vs files vs repos):")
+    print(coverage_by_algorithm.to_string())
     generate_msr_plots(df)
     export_to_json(df)
 
