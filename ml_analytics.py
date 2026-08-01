@@ -1,5 +1,12 @@
 import os
 import json
+import sys
+
+_python_tcl_dir = os.path.join(sys.base_prefix, "tcl")
+if os.path.isdir(os.path.join(_python_tcl_dir, "tcl8.6")):
+    os.environ.setdefault("TCL_LIBRARY", os.path.join(_python_tcl_dir, "tcl8.6"))
+if os.path.isdir(os.path.join(_python_tcl_dir, "tk8.6")):
+    os.environ.setdefault("TK_LIBRARY", os.path.join(_python_tcl_dir, "tk8.6"))
 
 import numpy as np
 import pandas as pd
@@ -9,8 +16,10 @@ import seaborn as sns
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score, accuracy_score, classification_report
+from sklearn.metrics import balanced_accuracy_score, precision_recall_fscore_support
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GroupShuffleSplit
+from sklearn.dummy import DummyClassifier
 
 import analytics  # reutiliza DATASET_PATH, enrich_dataset(), etc.
 
@@ -138,30 +147,38 @@ def profile_clusters(df, cluster_col="cluster", describe_cols=CLUSTER_PROFILE_CO
 
 def train_classifier(df, feature_cols, target_col, plots_dir):
     """
-    Entrena un RandomForestClassifier que predice `target_col`
-    (pds_category o pds_algorithm) a partir del contexto del proyecto.
-    Devuelve un resumen serializable (accuracy, reporte, importancias).
+    Entrena un RandomForestClassifier prediciendo `target_col` a partir
+    del contexto del proyecto, con separación por repositorio (GroupShuffleSplit)
+    para evitar fuga de datos entre train y test, y compara contra
+    baselines dummy (clase mayoritaria y estratificado aleatorio).
     """
     X = pd.get_dummies(df[list(feature_cols)])
     y = df[target_col]
+    groups = df['repository']
 
-    # Si alguna clase tiene muy pocas observaciones, stratify puede fallar;
-    # en ese caso se hace split simple en vez de romper el pipeline.
-    try:
-        Xtrain, Xtest, ytrain, ytest = train_test_split(
-            X, y, test_size=0.2, random_state=42, stratify=y
-        )
-    except ValueError:
-        Xtrain, Xtest, ytrain, ytest = train_test_split(
-            X, y, test_size=0.2, random_state=42
-        )
+    gss = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
+    train_idx, test_idx = next(gss.split(X, y, groups=groups))
+    Xtrain, Xtest = X.iloc[train_idx], X.iloc[test_idx]
+    ytrain, ytest = y.iloc[train_idx], y.iloc[test_idx]
 
     model = RandomForestClassifier(n_estimators=300, random_state=42)
     model.fit(Xtrain, ytrain)
     predictions = model.predict(Xtest)
 
-    accuracy = accuracy_score(ytest, predictions)
+    balanced_acc = balanced_accuracy_score(ytest, predictions)
+    macro_p, macro_r, macro_f1, _ = precision_recall_fscore_support(
+        ytest, predictions, average='macro', zero_division=0
+    )
     report = classification_report(ytest, predictions, zero_division=0, output_dict=True)
+
+    baselines = {}
+    for baseline_name, strategy in [('majority_class', 'most_frequent'), ('stratified_random', 'stratified')]:
+        dummy = DummyClassifier(strategy=strategy, random_state=42)
+        dummy.fit(Xtrain, ytrain)
+        dummy_preds = dummy.predict(Xtest)
+        baselines[baseline_name] = {
+            "balanced_accuracy": float(balanced_accuracy_score(ytest, dummy_preds)),
+        }
 
     importances = pd.Series(model.feature_importances_, index=X.columns).sort_values(ascending=False).head(15)
     plt.figure(figsize=(9, 6))
@@ -179,7 +196,13 @@ def train_classifier(df, feature_cols, target_col, plots_dir):
         "n_train": int(len(Xtrain)),
         "n_test": int(len(Xtest)),
         "n_classes": int(y.nunique()),
-        "accuracy": float(accuracy),
+        "n_train_repos": int(groups.iloc[train_idx].nunique()),
+        "n_test_repos": int(groups.iloc[test_idx].nunique()),
+        "balanced_accuracy": float(balanced_acc),
+        "macro_precision": float(macro_p),
+        "macro_recall": float(macro_r),
+        "macro_f1": float(macro_f1),
+        "baseline_comparison": baselines,
         "classification_report": report,
     }
 
@@ -249,11 +272,15 @@ def main():
     # --- 5. Clasificacion supervisada ---
     print("[INFO] Entrenando clasificador (pds_category)...")
     clf_category = train_classifier(df, CONTEXT_FEATURES, "pds_category", ML_PLOTS_DIR)
-    print(f"[INFO] Accuracy prediciendo pds_category: {clf_category['accuracy']:.2%}")
+    print(f"[INFO] pds_category -> balanced_accuracy: {clf_category['balanced_accuracy']:.2%} "
+          f"(baseline mayoritario: {clf_category['baseline_comparison']['majority_class']['balanced_accuracy']:.2%}), "
+          f"macro F1: {clf_category['macro_f1']:.2%}")
 
     print("[INFO] Entrenando clasificador (pds_algorithm)...")
     clf_algorithm = train_classifier(df, CONTEXT_FEATURES, "pds_algorithm", ML_PLOTS_DIR)
-    print(f"[INFO] Accuracy prediciendo pds_algorithm: {clf_algorithm['accuracy']:.2%}")
+    print(f"[INFO] pds_algorithm -> balanced_accuracy: {clf_algorithm['balanced_accuracy']:.2%} "
+          f"(baseline mayoritario: {clf_algorithm['baseline_comparison']['majority_class']['balanced_accuracy']:.2%}), "
+          f"macro F1: {clf_algorithm['macro_f1']:.2%}")
 
     # --- 6. Exportar resumen ---
     summary = {
