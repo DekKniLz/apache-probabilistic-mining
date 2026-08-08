@@ -124,6 +124,7 @@ https://github.com/apache/casbin-spring-boot-starter.git
 https://github.com/apache/cassandra-accord.git
 https://github.com/apache/cassandra-analytics.git
 https://github.com/apache/cassandra-diff.git
+https://github.com/apache/cassandra-ecosystem.git
 https://github.com/apache/cassandra-harry.git
 https://github.com/apache/cassandra-in-jvm-dtest-api.git
 https://github.com/apache/cassandra-java-driver.git
@@ -365,11 +366,10 @@ https://github.com/apache/ignite.git
 https://github.com/apache/incubator-baremaps.git
 https://github.com/apache/incubator-batchee.git
 https://github.com/apache/incubator-kie-benchmarks.git
-https://github.com/apache/incubator-kie-drools.git
-https://github.com/apache/incubator-kie-kogito-apps.git
+https://github.com/apache/incubator-kie-examples.git
 https://github.com/apache/incubator-kie-kogito-benchmarks.git
-https://github.com/apache/incubator-kie-kogito-examples.git
 https://github.com/apache/incubator-kie-optaplanner-quickstarts.git
+https://github.com/apache/incubator-kie.git
 https://github.com/apache/incubator-myriad.git
 https://github.com/apache/incubator-optiq-csv.git
 https://github.com/apache/incubator-optiq-linq4j.git
@@ -611,6 +611,7 @@ https://github.com/apache/pivot.git
 https://github.com/apache/plc4x-build-tools.git
 https://github.com/apache/plc4x-extras.git
 https://github.com/apache/plc4x.git
+https://github.com/apache/poi-xmlbeans.git
 https://github.com/apache/poi.git
 https://github.com/apache/polaris.git
 https://github.com/apache/pulsar-adapters.git
@@ -667,12 +668,8 @@ https://github.com/apache/servicecomb-java-chassis.git
 https://github.com/apache/servicecomb-samples.git
 https://github.com/apache/servicecomb-toolkit.git
 https://github.com/apache/servicemix-archetypes.git
-https://github.com/apache/servicemix-bundles.git
 https://github.com/apache/servicemix-components.git
-https://github.com/apache/servicemix-maven-plugins.git
-https://github.com/apache/servicemix-specs.git
 https://github.com/apache/servicemix-utils.git
-https://github.com/apache/servicemix.git
 https://github.com/apache/servicemix3.git
 https://github.com/apache/servicemix4-bundles.git
 https://github.com/apache/servicemix4-features.git
@@ -1039,7 +1036,6 @@ https://github.com/apache/xalan-j.git
 https://github.com/apache/xalan-java.git
 https://github.com/apache/xerces-j.git
 https://github.com/apache/xerces2-j.git
-https://github.com/apache/xmlbeans.git
 https://github.com/apache/xmlgraphics-batik.git
 https://github.com/apache/xmlgraphics-commons.git
 https://github.com/apache/xmlgraphics-fop-pdf-images.git

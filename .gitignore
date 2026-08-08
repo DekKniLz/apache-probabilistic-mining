@@ -18,7 +18,7 @@ output/
 *.json
 
 # Output plots for analysis
-plots/
-*.png
+# plots/
+# *.png
 
 .env
