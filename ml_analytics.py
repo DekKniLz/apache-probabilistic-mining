@@ -209,7 +209,7 @@ def train_classifier(df, feature_cols, target_col, plots_dir):
         dummy.fit(Xtr, ytr)
         baseline_metrics["balanced_accuracy"].append(balanced_accuracy_score(yte, dummy.predict(Xte)))
 
-    # Modelo final sobre TODOS los datos, solo para importancias y un reporte
+    ## Modelo final sobre TODOS los datos, solo para importancias y un reporte
     # de clasificacion indicativo (no para estimar generalizacion).
     final_model = RandomForestClassifier(n_estimators=300, random_state=RANDOM_STATE)
     final_model.fit(X, y)
