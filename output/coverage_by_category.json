@@ -1,0 +1,17 @@
+{
+    "Membership Filter":{
+        "n_occurrences":1933,
+        "n_files":676,
+        "n_repos":52
+    },
+    "Cardinality Estimator":{
+        "n_occurrences":320,
+        "n_files":123,
+        "n_repos":12
+    },
+    "Frequency Sketch":{
+        "n_occurrences":34,
+        "n_files":6,
+        "n_repos":3
+    }
+}

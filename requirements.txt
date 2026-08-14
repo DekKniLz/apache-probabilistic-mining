@@ -1,0 +1,26 @@
+# Core pipeline dependencies for apache-probabilistic-mining.
+#
+# Versions below are known-compatible with each other and are pinned so the
+# study is reproducible. After you install and confirm the pipeline runs on
+# your machine, freeze an exact lock with:
+#
+#     pip freeze > requirements.lock.txt
+#
+# and commit that lock file alongside the paper artifact.
+
+# --- Extraction phase (fetch_apache_repos.py) ---
+requests==2.32.3
+python-dotenv==1.0.1
+
+# --- Mining phase (miner.py) ---
+tree-sitter==0.23.2
+tree-sitter-java==0.23.5
+
+# --- Analytics phase (analytics.py) ---
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Advanced / ML phase (ml_analytics.py) ---
+scikit-learn==1.5.1

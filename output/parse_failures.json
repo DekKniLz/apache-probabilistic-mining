@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "incubator-seata",
+    "file": "MySqlLexer.java",
+    "error": "maximum recursion depth exceeded in comparison"
+  },
+  {
+    "repository": "lucene",
+    "file": "UAX29URLEmailTokenizerImpl.java",
+    "error": "maximum recursion depth exceeded in comparison"
+  },
+  {
+    "repository": "lucene",
+    "file": "HTMLStripCharFilter.java",
+    "error": "maximum recursion depth exceeded in comparison"
+  },
+  {
+    "repository": "netbeans",
+    "file": "PHP5ColoringLexer.java",
+    "error": "maximum recursion depth exceeded in comparison"
+  },
+  {
+    "repository": "netbeans",
+    "file": "ASTPHP5Scanner.java",
+    "error": "maximum recursion depth exceeded in comparison"
+  },
+  {
+    "repository": "netbeans",
+    "file": "ASTPHP5Parser.java",
+    "error": "maximum recursion depth exceeded in comparison"
+  }
+]

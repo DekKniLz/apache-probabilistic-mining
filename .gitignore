@@ -1,9 +1,10 @@
 # Virtual envs
 venv/
+.venv/
 __pycache__/
 *.pyc
 
-# Mined repo
+# Mined repos (cloned at runtime, never committed)
 cassandra/
 repos/
 repos_workspace/
@@ -12,13 +13,10 @@ repos_workspace/
 .DS_Store
 Thumbs.db
 
-# Output datasets
-output/
-*.csv
-*.json
+# Generated outputs (datasets, provenance, ML summaries)
+#output/
 
-# Output plots for analysis
-# plots/
-# *.png
-
+# Secrets
 .env
+
+

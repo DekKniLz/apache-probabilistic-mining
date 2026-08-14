@@ -8,6 +8,9 @@ if os.path.isdir(os.path.join(_python_tcl_dir, "tcl8.6")):
 if os.path.isdir(os.path.join(_python_tcl_dir, "tk8.6")):
     os.environ.setdefault("TK_LIBRARY", os.path.join(_python_tcl_dir, "tk8.6"))
 
+import matplotlib
+matplotlib.use("Agg")
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -17,8 +20,8 @@ from sklearn.cluster import AgglomerativeClustering, KMeans
 from sklearn.decomposition import PCA
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import IsolationForest, RandomForestClassifier
-from sklearn.metrics import balanced_accuracy_score, classification_report, precision_recall_fscore_support, silhouette_score
-from sklearn.model_selection import GroupShuffleSplit
+from sklearn.metrics import balanced_accuracy_score, classification_report, f1_score, silhouette_score
+from sklearn.model_selection import GroupKFold
 
 import analytics  # reutiliza DATASET_PATH, enrich_dataset(), etc.
 
@@ -27,10 +30,16 @@ ML_PLOTS_DIR = "./plots/ml"
 ML_JSON_OUTPUT_PATH = "./output/ml_analysis_summary.json"
 
 # Features de entrada: contexto del proyecto, NO el algoritmo/categoria.
+# IMPORTANTE (fuga de informacion): 'implementation_origin' se deriva en
+# parte de 'context', y ambos son senales debiles. Se predice pds_category /
+# pds_algorithm SOLO desde contexto estructural (ruta + tipo de nodo), nunca
+# desde el nombre de la clase, para que la tarea de clasificacion sea honesta.
 CONTEXT_FEATURES = ["usage_domain", "implementation_origin", "context", "path_depth", "path_has_test", "path_has_src"]
 
 # Columnas categoricas que describen a cada cluster una vez formado.
 CLUSTER_PROFILE_COLUMNS = ["pds_category", "pds_algorithm", "usage_domain", "implementation_origin"]
+
+RANDOM_STATE = 42
 
 
 def setup_environment():
@@ -85,8 +94,13 @@ def plot_pca_projection(X_pca, labels, title, filename, palette="viridis"):
 
 
 def run_pca(X, n_components=2):
-    """Ajusta PCA y devuelve (modelo, proyeccion)."""
-    pca = PCA(n_components=n_components, random_state=42)
+    """Ajusta PCA y devuelve (modelo, proyeccion).
+
+    NOTA: PCA sobre variables one-hot (binarias) es exploratorio; la varianza
+    explicada tiende a ser baja. Se usa solo para VISUALIZAR estructura, no
+    como reduccion de dimensionalidad para el clasificador.
+    """
+    pca = PCA(n_components=n_components, random_state=RANDOM_STATE)
     X_pca = pca.fit_transform(X)
     return pca, X_pca
 
@@ -97,7 +111,7 @@ def determine_optimal_k(X, k_range):
     silhouettes = []
 
     for k in k_range:
-        model = KMeans(n_clusters=k, random_state=42, n_init=10)
+        model = KMeans(n_clusters=k, random_state=RANDOM_STATE, n_init=10)
         cluster_labels = model.fit_predict(X)
         inertias.append(model.inertia_)
         silhouettes.append(silhouette_score(X, cluster_labels))
@@ -126,7 +140,7 @@ def determine_optimal_k(X, k_range):
 
 def run_clustering(X, k):
     """Ajusta KMeans y mete una segunda vista con clustering jerarquico."""
-    kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
+    kmeans = KMeans(n_clusters=k, random_state=RANDOM_STATE, n_init=10)
     hierarchical = AgglomerativeClustering(n_clusters=k, metric="euclidean", linkage="ward")
 
     return {
@@ -137,7 +151,7 @@ def run_clustering(X, k):
 
 def detect_anomalies(X, contamination=0.05):
     """Flags unusual combinations of context features using Isolation Forest."""
-    model = IsolationForest(contamination=contamination, random_state=42)
+    model = IsolationForest(contamination=contamination, random_state=RANDOM_STATE)
     labels = model.fit_predict(X)
     return labels == -1, model
 
@@ -154,32 +168,54 @@ def profile_clusters(df, cluster_col="cluster", describe_cols=CLUSTER_PROFILE_CO
 
 
 def train_classifier(df, feature_cols, target_col, plots_dir):
-    """Entrena un RandomForestClassifier para predecir `target_col` desde contexto."""
+    """Evalua un RandomForest con VALIDACION CRUZADA agrupada por repositorio.
+
+    Cambio metodologico clave frente a la version anterior (un solo
+    GroupShuffleSplit 80/20): se usa GroupKFold para que
+    (a) ningun repositorio aparezca en train y test a la vez (evita fuga), y
+    (b) se reporte media +/- desviacion estandar de las metricas, no un unico
+    numero de alta varianza. El baseline mayoritario se evalua con el mismo
+    esquema de folds para una comparacion justa.
+    """
     X = pd.get_dummies(df[list(feature_cols)])
-    y = df[target_col]
-    groups = df["repository"]
+    y = df[target_col].reset_index(drop=True)
+    groups = df["repository"].reset_index(drop=True)
+    X = X.reset_index(drop=True)
 
-    gss = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
-    train_idx, test_idx = next(gss.split(X, y, groups=groups))
-    Xtrain, Xtest = X.iloc[train_idx], X.iloc[test_idx]
-    ytrain, ytest = y.iloc[train_idx], y.iloc[test_idx]
+    n_groups = groups.nunique()
+    n_splits = min(5, n_groups)
+    if n_splits < 2:
+        return {
+            "target": target_col,
+            "error": f"Solo hay {n_groups} repositorio(s) con datos; se necesitan >=2 para GroupKFold.",
+        }
 
-    model = RandomForestClassifier(n_estimators=300, random_state=42)
-    model.fit(Xtrain, ytrain)
-    predictions = model.predict(Xtest)
+    gkf = GroupKFold(n_splits=n_splits)
 
-    balanced_acc = balanced_accuracy_score(ytest, predictions)
-    macro_p, macro_r, macro_f1, _ = precision_recall_fscore_support(ytest, predictions, average="macro", zero_division=0)
-    report = classification_report(ytest, predictions, zero_division=0, output_dict=True)
+    fold_metrics = {"balanced_accuracy": [], "macro_f1": []}
+    baseline_metrics = {"balanced_accuracy": []}
 
-    baselines = {}
-    for baseline_name, strategy in [("majority_class", "most_frequent"), ("stratified_random", "stratified")]:
-        dummy = DummyClassifier(strategy=strategy, random_state=42)
-        dummy.fit(Xtrain, ytrain)
-        dummy_preds = dummy.predict(Xtest)
-        baselines[baseline_name] = {"balanced_accuracy": float(balanced_accuracy_score(ytest, dummy_preds))}
+    for train_idx, test_idx in gkf.split(X, y, groups=groups):
+        Xtr, Xte = X.iloc[train_idx], X.iloc[test_idx]
+        ytr, yte = y.iloc[train_idx], y.iloc[test_idx]
 
-    importances = pd.Series(model.feature_importances_, index=X.columns).sort_values(ascending=False).head(15)
+        model = RandomForestClassifier(n_estimators=300, random_state=RANDOM_STATE)
+        model.fit(Xtr, ytr)
+        preds = model.predict(Xte)
+        fold_metrics["balanced_accuracy"].append(balanced_accuracy_score(yte, preds))
+        fold_metrics["macro_f1"].append(f1_score(yte, preds, average="macro", zero_division=0))
+
+        dummy = DummyClassifier(strategy="most_frequent")
+        dummy.fit(Xtr, ytr)
+        baseline_metrics["balanced_accuracy"].append(balanced_accuracy_score(yte, dummy.predict(Xte)))
+
+    # Modelo final sobre TODOS los datos, solo para importancias y un reporte
+    # de clasificacion indicativo (no para estimar generalizacion).
+    final_model = RandomForestClassifier(n_estimators=300, random_state=RANDOM_STATE)
+    final_model.fit(X, y)
+    full_report = classification_report(y, final_model.predict(X), zero_division=0, output_dict=True)
+
+    importances = pd.Series(final_model.feature_importances_, index=X.columns).sort_values(ascending=False).head(15)
     plt.figure(figsize=(9, 6))
     sns.barplot(x=importances.values, y=importances.index, hue=importances.index, palette="crest", legend=False)
     plt.title(f"Importancia de Variables -- Prediciendo {target_col}", fontweight="bold", pad=15)
@@ -190,19 +226,20 @@ def train_classifier(df, feature_cols, target_col, plots_dir):
     plt.savefig(f"{plots_dir}/Feature_Importance_{target_col}.png", dpi=300)
     plt.close()
 
+    def _mean_std(values):
+        arr = np.array(values, dtype=float)
+        return {"mean": float(arr.mean()), "std": float(arr.std(ddof=0)), "per_fold": [float(v) for v in arr]}
+
     return {
         "target": target_col,
-        "n_train": int(len(Xtrain)),
-        "n_test": int(len(Xtest)),
+        "cv_scheme": f"GroupKFold(n_splits={n_splits}) grouped by repository",
+        "n_observations": int(len(X)),
         "n_classes": int(y.nunique()),
-        "n_train_repos": int(groups.iloc[train_idx].nunique()),
-        "n_test_repos": int(groups.iloc[test_idx].nunique()),
-        "balanced_accuracy": float(balanced_acc),
-        "macro_precision": float(macro_p),
-        "macro_recall": float(macro_r),
-        "macro_f1": float(macro_f1),
-        "baseline_comparison": baselines,
-        "classification_report": report,
+        "n_groups_repositories": int(n_groups),
+        "balanced_accuracy_cv": _mean_std(fold_metrics["balanced_accuracy"]),
+        "macro_f1_cv": _mean_std(fold_metrics["macro_f1"]),
+        "baseline_majority_balanced_accuracy_cv": _mean_std(baseline_metrics["balanced_accuracy"]),
+        "in_sample_classification_report": full_report,
     }
 
 
@@ -254,13 +291,21 @@ def main():
     print(cluster_profile.to_string())
     print(f"[INFO] Anomaly detection flagged {int(df['anomaly_flag'].sum())} observations as unusual.")
 
-    print("[INFO] Entrenando clasificador (pds_category)...")
+    print("[INFO] Entrenando clasificador (pds_category) con GroupKFold...")
     clf_category = train_classifier(df, CONTEXT_FEATURES, "pds_category", ML_PLOTS_DIR)
-    print(f"[INFO] pds_category -> balanced_accuracy: {clf_category['balanced_accuracy']:.2%} (baseline mayoritario: {clf_category['baseline_comparison']['majority_class']['balanced_accuracy']:.2%}), macro F1: {clf_category['macro_f1']:.2%}")
+    if "balanced_accuracy_cv" in clf_category:
+        ba = clf_category["balanced_accuracy_cv"]
+        base = clf_category["baseline_majority_balanced_accuracy_cv"]
+        print(f"[INFO] pds_category -> balanced_accuracy CV: {ba['mean']:.2%} +/- {ba['std']:.2%} "
+              f"(baseline mayoritario: {base['mean']:.2%})")
 
-    print("[INFO] Entrenando clasificador (pds_algorithm)...")
+    print("[INFO] Entrenando clasificador (pds_algorithm) con GroupKFold...")
     clf_algorithm = train_classifier(df, CONTEXT_FEATURES, "pds_algorithm", ML_PLOTS_DIR)
-    print(f"[INFO] pds_algorithm -> balanced_accuracy: {clf_algorithm['balanced_accuracy']:.2%} (baseline mayoritario: {clf_algorithm['baseline_comparison']['majority_class']['balanced_accuracy']:.2%}), macro F1: {clf_algorithm['macro_f1']:.2%}")
+    if "balanced_accuracy_cv" in clf_algorithm:
+        ba = clf_algorithm["balanced_accuracy_cv"]
+        base = clf_algorithm["baseline_majority_balanced_accuracy_cv"]
+        print(f"[INFO] pds_algorithm -> balanced_accuracy CV: {ba['mean']:.2%} +/- {ba['std']:.2%} "
+              f"(baseline mayoritario: {base['mean']:.2%})")
 
     summary = {
         "n_observations": n_rows,

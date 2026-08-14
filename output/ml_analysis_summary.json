@@ -1,0 +1,271 @@
+{
+    "n_observations": 2287,
+    "pca_explained_variance_ratio": {
+        "PC1": 0.6708791971313589,
+        "PC2": 0.17087392632342263
+    },
+    "optimal_k": 10,
+    "inertia_by_k": {
+        "2": 6562.110080218476,
+        "3": 5091.736881040922,
+        "4": 4035.1719595388595,
+        "5": 3461.517545747065,
+        "6": 2975.638169664502,
+        "7": 2705.2623931747876,
+        "8": 2539.9086939730832,
+        "9": 2369.600661125281,
+        "10": 2147.4256520303616
+    },
+    "silhouette_by_k": {
+        "2": 0.3952088999486414,
+        "3": 0.362547001010409,
+        "4": 0.36456206733972935,
+        "5": 0.37846860607603927,
+        "6": 0.3813731953589064,
+        "7": 0.4023780544756523,
+        "8": 0.40628660597741273,
+        "9": 0.39201293593274683,
+        "10": 0.419613627431093
+    },
+    "cluster_profile": [
+        {
+            "cluster": 0,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "Unresolved (needs import cross-reference)",
+            "n_observations": 33
+        },
+        {
+            "cluster": 1,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "Custom Implementation",
+            "n_observations": 213
+        },
+        {
+            "cluster": 2,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "Unresolved (needs import cross-reference)",
+            "n_observations": 503
+        },
+        {
+            "cluster": 3,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "Unresolved (needs import cross-reference)",
+            "n_observations": 431
+        },
+        {
+            "cluster": 4,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "Unresolved (needs import cross-reference)",
+            "n_observations": 103
+        },
+        {
+            "cluster": 5,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Networking & Web",
+            "implementation_origin": "Custom Implementation",
+            "n_observations": 209
+        },
+        {
+            "cluster": 6,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Storage & Databases",
+            "implementation_origin": "External (Unclassified)",
+            "n_observations": 117
+        },
+        {
+            "cluster": 7,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "Custom Implementation",
+            "n_observations": 297
+        },
+        {
+            "cluster": 8,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "External (Unclassified)",
+            "n_observations": 191
+        },
+        {
+            "cluster": 9,
+            "pds_category": "Membership Filter",
+            "pds_algorithm": "Bloom Filter",
+            "usage_domain": "Core Application",
+            "implementation_origin": "Third-Party Library",
+            "n_observations": 190
+        }
+    ],
+    "n_anomalies": 114,
+    "classification_pds_category": {
+        "target": "pds_category",
+        "cv_scheme": "GroupKFold(n_splits=5) grouped by repository",
+        "n_observations": 2287,
+        "n_classes": 3,
+        "n_groups_repositories": 53,
+        "balanced_accuracy_cv": {
+            "mean": 0.43495833402496364,
+            "std": 0.0813510208824999,
+            "per_fold": [
+                0.49015317286652077,
+                0.3298791018998273,
+                0.5411619609743206,
+                0.4621913580246914,
+                0.35140607635945825
+            ]
+        },
+        "macro_f1_cv": {
+            "mean": 0.3959265010925341,
+            "std": 0.0834098458431621,
+            "per_fold": [
+                0.49448123620309054,
+                0.3101908241981324,
+                0.34622097232701526,
+                0.4997261197488729,
+                0.32901335298555917
+            ]
+        },
+        "baseline_majority_balanced_accuracy_cv": {
+            "mean": 0.39999999999999997,
+            "std": 0.08164965809277261,
+            "per_fold": [
+                0.5,
+                0.3333333333333333,
+                0.5,
+                0.3333333333333333,
+                0.3333333333333333
+            ]
+        },
+        "in_sample_classification_report": {
+            "Cardinality Estimator": {
+                "precision": 0.6721311475409836,
+                "recall": 0.5125,
+                "f1-score": 0.5815602836879432,
+                "support": 320.0
+            },
+            "Frequency Sketch": {
+                "precision": 0.8666666666666667,
+                "recall": 0.7647058823529411,
+                "f1-score": 0.8125,
+                "support": 34.0
+            },
+            "Membership Filter": {
+                "precision": 0.9234972677595629,
+                "recall": 0.9617175375064666,
+                "f1-score": 0.9422199695894576,
+                "support": 1933.0
+            },
+            "accuracy": 0.8959335373852209,
+            "macro avg": {
+                "precision": 0.8207650273224044,
+                "recall": 0.7463078066198024,
+                "f1-score": 0.7787600844258002,
+                "support": 2287.0
+            },
+            "weighted avg": {
+                "precision": 0.887480914936168,
+                "recall": 0.8959335373852209,
+                "f1-score": 0.8898274997798703,
+                "support": 2287.0
+            }
+        }
+    },
+    "classification_pds_algorithm": {
+        "target": "pds_algorithm",
+        "cv_scheme": "GroupKFold(n_splits=5) grouped by repository",
+        "n_observations": 2287,
+        "n_classes": 5,
+        "n_groups_repositories": 53,
+        "balanced_accuracy_cv": {
+            "mean": 0.3445694405979921,
+            "std": 0.08334463647583136,
+            "per_fold": [
+                0.49015317286652077,
+                0.26252158894645944,
+                0.3599797738346971,
+                0.3466381100726895,
+                0.2635545572695937
+            ]
+        },
+        "macro_f1_cv": {
+            "mean": 0.3147331192040126,
+            "std": 0.1060142510540771,
+            "per_fold": [
+                0.49448123620309054,
+                0.20457604306864063,
+                0.25421867237953305,
+                0.37362962962962964,
+                0.24676001473916936
+            ]
+        },
+        "baseline_majority_balanced_accuracy_cv": {
+            "mean": 0.3333333333333333,
+            "std": 0.09128709291752768,
+            "per_fold": [
+                0.5,
+                0.3333333333333333,
+                0.3333333333333333,
+                0.25,
+                0.25
+            ]
+        },
+        "in_sample_classification_report": {
+            "Bloom Filter": {
+                "precision": 0.9150521609538003,
+                "recall": 0.9613778705636743,
+                "f1-score": 0.937643166200051,
+                "support": 1916.0
+            },
+            "Count Sketch": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 1.0
+            },
+            "Count-Min Sketch": {
+                "precision": 0.8333333333333334,
+                "recall": 0.7575757575757576,
+                "f1-score": 0.7936507936507936,
+                "support": 33.0
+            },
+            "Cuckoo Filter": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 17.0
+            },
+            "HyperLogLog": {
+                "precision": 0.6721311475409836,
+                "recall": 0.5125,
+                "f1-score": 0.5815602836879432,
+                "support": 320.0
+            },
+            "accuracy": 0.8880629645824224,
+            "macro avg": {
+                "precision": 0.4841033283656235,
+                "recall": 0.4462907256278864,
+                "f1-score": 0.4625708487077576,
+                "support": 2287.0
+            },
+            "weighted avg": {
+                "precision": 0.8726812013994736,
+                "recall": 0.8880629645824224,
+                "f1-score": 0.8783620784477113,
+                "support": 2287.0
+            }
+        }
+    }
+}

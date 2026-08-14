@@ -1,0 +1,27 @@
+{
+    "Bloom Filter":{
+        "n_occurrences":1916,
+        "n_files":666,
+        "n_repos":52
+    },
+    "HyperLogLog":{
+        "n_occurrences":320,
+        "n_files":123,
+        "n_repos":12
+    },
+    "Count-Min Sketch":{
+        "n_occurrences":33,
+        "n_files":6,
+        "n_repos":3
+    },
+    "Cuckoo Filter":{
+        "n_occurrences":17,
+        "n_files":10,
+        "n_repos":2
+    },
+    "Count Sketch":{
+        "n_occurrences":1,
+        "n_files":1,
+        "n_repos":1
+    }
+}

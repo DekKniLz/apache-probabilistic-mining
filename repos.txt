@@ -1,15 +1,11 @@
 https://github.com/apache/accumulo-access.git
-https://github.com/apache/accumulo-bsp.git
 https://github.com/apache/accumulo-classloaders.git
 https://github.com/apache/accumulo-examples.git
 https://github.com/apache/accumulo-fluo-examples.git
 https://github.com/apache/accumulo-fluo-recipes.git
 https://github.com/apache/accumulo-fluo.git
-https://github.com/apache/accumulo-instamo-archetype.git
-https://github.com/apache/accumulo-pig.git
 https://github.com/apache/accumulo-proxy.git
 https://github.com/apache/accumulo-testing.git
-https://github.com/apache/accumulo-wikisearch.git
 https://github.com/apache/accumulo.git
 https://github.com/apache/ace.git
 https://github.com/apache/activemq-cli-tools.git
@@ -536,10 +532,8 @@ https://github.com/apache/maven-shared-utils.git
 https://github.com/apache/maven-site-plugin.git
 https://github.com/apache/maven-site.git
 https://github.com/apache/maven-source-plugin.git
-https://github.com/apache/maven-stage-plugin.git
 https://github.com/apache/maven-surefire.git
 https://github.com/apache/maven-toolchains-plugin.git
-https://github.com/apache/maven-verifier-plugin.git
 https://github.com/apache/maven-verifier.git
 https://github.com/apache/maven-wagon.git
 https://github.com/apache/maven-war-plugin.git
@@ -1021,7 +1015,6 @@ https://github.com/apache/uima-ruta.git
 https://github.com/apache/uima-uimaj-io-jsoncas.git
 https://github.com/apache/uima-uimaj.git
 https://github.com/apache/uniffle.git
-https://github.com/apache/universal-wiki-converter.git
 https://github.com/apache/unomi.git
 https://github.com/apache/velocity-engine.git
 https://github.com/apache/velocity-tools.git

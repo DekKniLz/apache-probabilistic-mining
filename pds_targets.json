@@ -1,0 +1,17 @@
+{
+  "_comment": "Single source of truth for the mining vocabulary. miner.py searches these tokens as case-insensitive substrings in imports and instantiations. Keep this ALIGNED with analytics.PDS_ALGORITHM_PATTERNS: every token here must map to a known algorithm there, and every algorithm you want to report must be reachable from a token here. Short/ambiguous tokens (hll, cms, cpc, xor, shards, loglog, ifilter) are intentionally EXCLUDED to protect precision; if you need them, add them and validate with a manually labeled gold sample (see analytics.compute_extractor_metrics).",
+  "target_structures": [
+    "BloomFilter",
+    "Bloom",
+    "CuckooFilter",
+    "Cuckoo",
+    "RibbonFilter",
+    "XorFilter",
+    "HyperLogLogPlus",
+    "HyperLogLog",
+    "CountMinSketch",
+    "CountSketch",
+    "LinearCounting",
+    "CounterStacks"
+  ]
+}
