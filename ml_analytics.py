@@ -213,7 +213,12 @@ def train_classifier(df, feature_cols, target_col, plots_dir):
     # de clasificacion indicativo (no para estimar generalizacion).
     final_model = RandomForestClassifier(n_estimators=300, random_state=RANDOM_STATE)
     final_model.fit(X, y)
-    full_report = classification_report(y, final_model.predict(X), zero_division=0, output_dict=True)
+    # Pass the full label set explicitly so the report is complete and does not
+    # emit "classes not in y_true" warnings for rare classes.
+    report_labels = sorted(y.unique())
+    full_report = classification_report(
+        y, final_model.predict(X), labels=report_labels, zero_division=0, output_dict=True
+    )
 
     importances = pd.Series(final_model.feature_importances_, index=X.columns).sort_values(ascending=False).head(15)
     plt.figure(figsize=(9, 6))
