@@ -58,13 +58,13 @@ of them. Full artifacts are in `output/` and `plots/`.
 | Count Sketch | Frequency Sketch | 1 | 1 |
 
 **Machine learning** (`output/ml_analysis_summary.json`) — 2,287 observations.
-PCA on one-hot context features explains 67% / 17% of variance (PC1/PC2);
-K-Means selects K=10 by silhouette; Isolation Forest flags 114 unusual findings.
+PCA on one-hot context features explains 67% / 15% of variance (PC1/PC2);
+K-Means selects K=2 by silhouette; Isolation Forest flags 114 unusual findings.
 A Random Forest predicting the PDS **from structural context only** (grouped by
-repository, 5-fold CV) reaches **43.5% ± 8.1%** balanced accuracy for category
-(majority baseline 40.0%) and **34.5% ± 8.3%** for algorithm (baseline 33.3%).
-The near-baseline scores are the point: context does not strongly determine
-which structure is used.
+repository, 5-fold CV) reaches **46.5% ± 11.8%** balanced accuracy for category
+(majority baseline 40.0%) and **37.3% ± 8.3%** for algorithm (baseline 33.3%).
+Even after resolving implementation origin, the scores stay close to baseline:
+structural context does not strongly determine which structure is used.
 
 ---
 
@@ -225,8 +225,10 @@ These are inherent to the heuristics and should be stated in the paper:
   `io`), not a validated architectural analysis. Matching is on whole path
   tokens, not raw substrings, to avoid false positives.
 - **RQ3 implementation origin** is best-effort. `INSTANTIATION` findings are
-  labeled `Unresolved` because origin cannot be determined without resolving
-  the corresponding import; the miner does not yet perform that cross-reference.
+  now resolved when the miner captured the matching import for that file
+  (`import_hint`): the origin is read from that fully-qualified import (344 of
+  the instantiations are resolved this way). Instantiations with no captured
+  import remain labeled `Unresolved`, so RQ3 is partial, not exhaustive.
 - **Mining recall** is bounded by the tokens in `pds_targets.json`; structures
   named outside that vocabulary are not captured.
 - **Detector precision/recall** against a manually labeled gold set is not yet
