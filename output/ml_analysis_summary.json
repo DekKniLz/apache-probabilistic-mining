@@ -1,31 +1,31 @@
 {
-    "n_observations": 2287,
+    "n_observations": 2290,
     "pca_explained_variance_ratio": {
-        "PC1": 0.6708791971313589,
-        "PC2": 0.17087392632342263
+        "PC1": 0.6661196952151438,
+        "PC2": 0.14657473188728093
     },
-    "optimal_k": 10,
+    "optimal_k": 2,
     "inertia_by_k": {
-        "2": 6562.110080218476,
-        "3": 5091.736881040922,
-        "4": 4035.1719595388595,
-        "5": 3461.517545747065,
-        "6": 2975.638169664502,
-        "7": 2705.2623931747876,
-        "8": 2539.9086939730832,
-        "9": 2369.600661125281,
-        "10": 2147.4256520303616
+        "2": 6658.013203710501,
+        "3": 5289.50518618172,
+        "4": 4389.304007516921,
+        "5": 3740.8795115439793,
+        "6": 3310.8093083714853,
+        "7": 3080.973100377213,
+        "8": 2911.6978167966945,
+        "9": 2752.1427944141974,
+        "10": 2522.202603839545
     },
     "silhouette_by_k": {
-        "2": 0.3952088999486414,
-        "3": 0.362547001010409,
-        "4": 0.36456206733972935,
-        "5": 0.37846860607603927,
-        "6": 0.3813731953589064,
-        "7": 0.4023780544756523,
-        "8": 0.40628660597741273,
-        "9": 0.39201293593274683,
-        "10": 0.419613627431093
+        "2": 0.38828568311737144,
+        "3": 0.29114032604343465,
+        "4": 0.3082616481844151,
+        "5": 0.33334810522556896,
+        "6": 0.33191235987590745,
+        "7": 0.34206854017266214,
+        "8": 0.3356869816933645,
+        "9": 0.3494784753946245,
+        "10": 0.35931716490094767
     },
     "cluster_profile": [
         {
@@ -33,8 +33,8 @@
             "pds_category": "Membership Filter",
             "pds_algorithm": "Bloom Filter",
             "usage_domain": "Core Application",
-            "implementation_origin": "Unresolved (needs import cross-reference)",
-            "n_observations": 33
+            "implementation_origin": "Custom Implementation",
+            "n_observations": 1512
         },
         {
             "cluster": 1,
@@ -42,191 +42,127 @@
             "pds_algorithm": "Bloom Filter",
             "usage_domain": "Core Application",
             "implementation_origin": "Custom Implementation",
-            "n_observations": 213
-        },
-        {
-            "cluster": 2,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Core Application",
-            "implementation_origin": "Unresolved (needs import cross-reference)",
-            "n_observations": 503
-        },
-        {
-            "cluster": 3,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Core Application",
-            "implementation_origin": "Unresolved (needs import cross-reference)",
-            "n_observations": 431
-        },
-        {
-            "cluster": 4,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Core Application",
-            "implementation_origin": "Unresolved (needs import cross-reference)",
-            "n_observations": 103
-        },
-        {
-            "cluster": 5,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Networking & Web",
-            "implementation_origin": "Custom Implementation",
-            "n_observations": 209
-        },
-        {
-            "cluster": 6,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Storage & Databases",
-            "implementation_origin": "External (Unclassified)",
-            "n_observations": 117
-        },
-        {
-            "cluster": 7,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Core Application",
-            "implementation_origin": "Custom Implementation",
-            "n_observations": 297
-        },
-        {
-            "cluster": 8,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Core Application",
-            "implementation_origin": "External (Unclassified)",
-            "n_observations": 191
-        },
-        {
-            "cluster": 9,
-            "pds_category": "Membership Filter",
-            "pds_algorithm": "Bloom Filter",
-            "usage_domain": "Core Application",
-            "implementation_origin": "Third-Party Library",
-            "n_observations": 190
+            "n_observations": 778
         }
     ],
-    "n_anomalies": 114,
+    "n_anomalies": 111,
     "classification_pds_category": {
         "target": "pds_category",
         "cv_scheme": "GroupKFold(n_splits=5) grouped by repository",
-        "n_observations": 2287,
+        "n_observations": 2290,
         "n_classes": 3,
-        "n_groups_repositories": 53,
+        "n_groups_repositories": 52,
         "balanced_accuracy_cv": {
-            "mean": 0.43495833402496364,
-            "std": 0.0813510208824999,
+            "mean": 0.5230115551955482,
+            "std": 0.23319574101626608,
             "per_fold": [
-                0.49015317286652077,
-                0.3298791018998273,
-                0.5411619609743206,
-                0.4621913580246914,
-                0.35140607635945825
+                0.980349344978166,
+                0.3558340662562298,
+                0.4495134965473948,
+                0.46909492273730685,
+                0.3602659454586432
             ]
         },
         "macro_f1_cv": {
-            "mean": 0.3959265010925341,
-            "std": 0.0834098458431621,
+            "mean": 0.4255566317078852,
+            "std": 0.06474661127286183,
             "per_fold": [
-                0.49448123620309054,
-                0.3101908241981324,
-                0.34622097232701526,
-                0.4997261197488729,
-                0.32901335298555917
+                0.49503858875413453,
+                0.35116265132446367,
+                0.45579805996472667,
+                0.4813137032842582,
+                0.3444701552118432
             ]
         },
         "baseline_majority_balanced_accuracy_cv": {
-            "mean": 0.39999999999999997,
-            "std": 0.08164965809277261,
+            "mean": 0.5,
+            "std": 0.25819888974716115,
             "per_fold": [
-                0.5,
+                1.0,
+                0.3333333333333333,
                 0.3333333333333333,
                 0.5,
-                0.3333333333333333,
                 0.3333333333333333
             ]
         },
         "in_sample_classification_report": {
             "Cardinality Estimator": {
-                "precision": 0.6721311475409836,
-                "recall": 0.5125,
-                "f1-score": 0.5815602836879432,
-                "support": 320.0
+                "precision": 0.7442622950819672,
+                "recall": 0.7027863777089783,
+                "f1-score": 0.7229299363057324,
+                "support": 323.0
             },
             "Frequency Sketch": {
-                "precision": 0.8666666666666667,
-                "recall": 0.7647058823529411,
-                "f1-score": 0.8125,
+                "precision": 0.9642857142857143,
+                "recall": 0.7941176470588235,
+                "f1-score": 0.8709677419354839,
                 "support": 34.0
             },
             "Membership Filter": {
-                "precision": 0.9234972677595629,
+                "precision": 0.9499233520694941,
                 "recall": 0.9617175375064666,
-                "f1-score": 0.9422199695894576,
+                "f1-score": 0.9557840616966581,
                 "support": 1933.0
             },
-            "accuracy": 0.8959335373852209,
+            "accuracy": 0.9227074235807861,
             "macro avg": {
-                "precision": 0.8207650273224044,
-                "recall": 0.7463078066198024,
-                "f1-score": 0.7787600844258002,
-                "support": 2287.0
+                "precision": 0.8861571204790586,
+                "recall": 0.8195405207580895,
+                "f1-score": 0.8498939133126248,
+                "support": 2290.0
             },
             "weighted avg": {
-                "precision": 0.887480914936168,
-                "recall": 0.8959335373852209,
-                "f1-score": 0.8898274997798703,
-                "support": 2287.0
+                "precision": 0.9211285044312322,
+                "recall": 0.9227074235807861,
+                "f1-score": 0.9216811632804359,
+                "support": 2290.0
             }
         }
     },
     "classification_pds_algorithm": {
         "target": "pds_algorithm",
         "cv_scheme": "GroupKFold(n_splits=5) grouped by repository",
-        "n_observations": 2287,
+        "n_observations": 2290,
         "n_classes": 5,
-        "n_groups_repositories": 53,
+        "n_groups_repositories": 52,
         "balanced_accuracy_cv": {
-            "mean": 0.3445694405979921,
-            "std": 0.08334463647583136,
+            "mean": 0.44327760448232134,
+            "std": 0.26955181096002456,
             "per_fold": [
-                0.49015317286652077,
-                0.26252158894645944,
-                0.3599797738346971,
-                0.3466381100726895,
-                0.2635545572695937
+                0.980349344978166,
+                0.33032834945763706,
+                0.3278664302600473,
+                0.3125463994060876,
+                0.2652974983096687
             ]
         },
         "macro_f1_cv": {
-            "mean": 0.3147331192040126,
-            "std": 0.1060142510540771,
+            "mean": 0.328558771716426,
+            "std": 0.08897456436948574,
             "per_fold": [
-                0.49448123620309054,
-                0.20457604306864063,
-                0.25421867237953305,
-                0.37362962962962964,
-                0.24676001473916936
+                0.49503858875413453,
+                0.2533892382948987,
+                0.3247090740344114,
+                0.3193022373909746,
+                0.25035472010771065
             ]
         },
         "baseline_majority_balanced_accuracy_cv": {
-            "mean": 0.3333333333333333,
-            "std": 0.09128709291752768,
+            "mean": 0.4333333333333333,
+            "std": 0.2857738033247041,
             "per_fold": [
-                0.5,
-                0.3333333333333333,
+                1.0,
                 0.3333333333333333,
                 0.25,
+                0.3333333333333333,
                 0.25
             ]
         },
         "in_sample_classification_report": {
             "Bloom Filter": {
-                "precision": 0.9150521609538003,
+                "precision": 0.9412365866121615,
                 "recall": 0.9613778705636743,
-                "f1-score": 0.937643166200051,
+                "f1-score": 0.9512006196746708,
                 "support": 1916.0
             },
             "Count Sketch": {
@@ -236,9 +172,9 @@
                 "support": 1.0
             },
             "Count-Min Sketch": {
-                "precision": 0.8333333333333334,
-                "recall": 0.7575757575757576,
-                "f1-score": 0.7936507936507936,
+                "precision": 0.9285714285714286,
+                "recall": 0.7878787878787878,
+                "f1-score": 0.8524590163934426,
                 "support": 33.0
             },
             "Cuckoo Filter": {
@@ -248,23 +184,23 @@
                 "support": 17.0
             },
             "HyperLogLog": {
-                "precision": 0.6721311475409836,
-                "recall": 0.5125,
-                "f1-score": 0.5815602836879432,
-                "support": 320.0
+                "precision": 0.7442622950819672,
+                "recall": 0.7027863777089783,
+                "f1-score": 0.7229299363057324,
+                "support": 323.0
             },
-            "accuracy": 0.8880629645824224,
+            "accuracy": 0.9148471615720524,
             "macro avg": {
-                "precision": 0.4841033283656235,
-                "recall": 0.4462907256278864,
-                "f1-score": 0.4625708487077576,
-                "support": 2287.0
+                "precision": 0.5228140620531114,
+                "recall": 0.4904086072302881,
+                "f1-score": 0.5053179144747691,
+                "support": 2290.0
             },
             "weighted avg": {
-                "precision": 0.8726812013994736,
-                "recall": 0.8880629645824224,
-                "f1-score": 0.8783620784477113,
-                "support": 2287.0
+                "precision": 0.9058728726651676,
+                "recall": 0.9148471615720524,
+                "f1-score": 0.9101038883250674,
+                "support": 2290.0
             }
         }
     }

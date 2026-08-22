@@ -236,7 +236,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -252,7 +252,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -476,7 +476,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -492,7 +492,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -748,7 +748,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -780,7 +780,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -796,7 +796,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -828,7 +828,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1020,7 +1020,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1148,7 +1148,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1164,7 +1164,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1180,7 +1180,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1276,7 +1276,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1340,7 +1340,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1372,7 +1372,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1388,7 +1388,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1596,7 +1596,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1612,7 +1612,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1628,7 +1628,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1644,7 +1644,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1740,7 +1740,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1756,7 +1756,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1868,7 +1868,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1884,7 +1884,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -1900,7 +1900,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2012,7 +2012,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2092,7 +2092,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2236,7 +2236,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2252,7 +2252,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2268,7 +2268,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2380,7 +2380,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2396,7 +2396,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2604,7 +2604,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -2636,7 +2636,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -2764,7 +2764,7 @@
         "pds_algorithm":"Count-Min Sketch",
         "pds_category":"Frequency Sketch",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Modern"
     },
     {
@@ -2940,7 +2940,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -2972,7 +2972,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -3420,7 +3420,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -3569,11 +3569,11 @@
     },
     {
         "repository":"cassandra",
-        "file_name":"SSTableCursorWriter.java",
+        "file_name":"BigCursorIndexWriter.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.cassandra.utils.BloomFilter",
-        "line_number":56,
-        "relative_path":"src\/java\/org\/apache\/cassandra\/io\/sstable\/SSTableCursorWriter.java",
+        "line_number":36,
+        "relative_path":"src\/java\/org\/apache\/cassandra\/io\/sstable\/BigCursorIndexWriter.java",
         "import_hint":null,
         "clean_import":"org.apache.cassandra.utils.BloomFilter",
         "raw_class":"BloomFilter",
@@ -3628,7 +3628,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -3684,7 +3684,7 @@
         "file_name":"MetadataCollector.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":157,
+        "line_number":158,
         "relative_path":"src\/java\/org\/apache\/cassandra\/io\/sstable\/metadata\/MetadataCollector.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -3692,7 +3692,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -3868,7 +3868,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -3900,7 +3900,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -5692,7 +5692,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -5724,7 +5724,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Analytics & Telemetry",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -6176,22 +6176,6 @@
         "tech_generation":"Legacy"
     },
     {
-        "repository":"doris",
-        "file_name":"BuiltinTableValuedFunctions.java",
-        "context":"IMPORT",
-        "target_structure":"import org.apache.doris.nereids.trees.expressions.functions.table.ParquetBloomProbe",
-        "line_number":35,
-        "relative_path":"fe\/fe-core\/src\/main\/java\/org\/apache\/doris\/catalog\/BuiltinTableValuedFunctions.java",
-        "import_hint":null,
-        "clean_import":"org.apache.doris.nereids.trees.expressions.functions.table.ParquetBloomProbe",
-        "raw_class":"ParquetBloomProbe",
-        "pds_algorithm":"Bloom Filter",
-        "pds_category":"Membership Filter",
-        "usage_domain":"Core Application",
-        "implementation_origin":"Custom Implementation",
-        "tech_generation":"Legacy"
-    },
-    {
         "repository":"drill",
         "file_name":"BloomFilterTest.java",
         "context":"INSTANTIATION",
@@ -6268,7 +6252,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -6284,7 +6268,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -6300,7 +6284,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -6396,7 +6380,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8316,7 +8300,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8340,7 +8324,7 @@
         "file_name":"MSQInsertTest.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.druid.hll.HyperLogLogCollector",
-        "line_number":41,
+        "line_number":42,
         "relative_path":"multi-stage-query\/src\/test\/java\/org\/apache\/druid\/msq\/exec\/MSQInsertTest.java",
         "import_hint":null,
         "clean_import":"org.apache.druid.hll.HyperLogLogCollector",
@@ -8356,7 +8340,7 @@
         "file_name":"MSQTestBase.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.druid.hll.HyperLogLogCollector",
-        "line_number":64,
+        "line_number":66,
         "relative_path":"multi-stage-query\/src\/test\/java\/org\/apache\/druid\/msq\/test\/MSQTestBase.java",
         "import_hint":null,
         "clean_import":"org.apache.druid.hll.HyperLogLogCollector",
@@ -8492,7 +8476,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8508,7 +8492,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8524,7 +8508,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8540,7 +8524,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8556,7 +8540,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8572,7 +8556,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8876,7 +8860,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -8956,7 +8940,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9052,7 +9036,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9132,7 +9116,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9148,7 +9132,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9164,7 +9148,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9180,7 +9164,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9196,7 +9180,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9212,7 +9196,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9228,7 +9212,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9244,7 +9228,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9260,7 +9244,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9276,7 +9260,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9292,7 +9276,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9308,7 +9292,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9324,7 +9308,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9340,7 +9324,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9356,7 +9340,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9372,7 +9356,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9388,7 +9372,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9404,7 +9388,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9420,7 +9404,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9436,7 +9420,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9452,7 +9436,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9468,7 +9452,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9484,7 +9468,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9500,7 +9484,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9516,7 +9500,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9548,7 +9532,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -9772,7 +9756,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10860,7 +10844,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10876,7 +10860,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10892,7 +10876,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10908,7 +10892,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10924,7 +10908,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10940,7 +10924,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10956,7 +10940,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10972,7 +10956,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -10988,7 +10972,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11004,7 +10988,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11020,7 +11004,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11036,7 +11020,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11052,7 +11036,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11068,7 +11052,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11084,7 +11068,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11100,7 +11084,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11116,7 +11100,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11260,7 +11244,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11276,7 +11260,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11596,7 +11580,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11660,7 +11644,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11900,7 +11884,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -11916,7 +11900,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -12124,7 +12108,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -12844,7 +12828,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -13164,7 +13148,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -13196,7 +13180,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -13276,7 +13260,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -13420,7 +13404,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -13468,7 +13452,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13500,7 +13484,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13516,7 +13500,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13548,7 +13532,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13596,7 +13580,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13612,7 +13596,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13644,7 +13628,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13692,7 +13676,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -13724,7 +13708,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -14012,7 +13996,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -14044,7 +14028,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -14076,7 +14060,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -14092,7 +14076,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -14316,7 +14300,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -14332,7 +14316,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -15724,7 +15708,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -15740,7 +15724,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -15756,7 +15740,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16188,7 +16172,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16204,7 +16188,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16220,7 +16204,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16236,7 +16220,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16364,7 +16348,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16524,7 +16508,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16556,7 +16540,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16588,7 +16572,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -16620,7 +16604,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -17148,7 +17132,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -17164,7 +17148,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -18012,7 +17996,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -18236,7 +18220,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -18364,7 +18348,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -18380,7 +18364,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -18716,7 +18700,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -18796,7 +18780,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -19788,7 +19772,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -19804,7 +19788,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -20268,7 +20252,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -20284,7 +20268,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -20892,7 +20876,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -21500,7 +21484,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -21516,7 +21500,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -22004,7 +21988,7 @@
         "file_name":"HoodieParquetBinaryCopyBase.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.parquet.column.values.bloomfilter.BloomFilter",
-        "line_number":36,
+        "line_number":37,
         "relative_path":"hudi-hadoop-common\/src\/main\/java\/org\/apache\/hudi\/parquet\/io\/HoodieParquetBinaryCopyBase.java",
         "import_hint":null,
         "clean_import":"org.apache.parquet.column.values.bloomfilter.BloomFilter",
@@ -23084,7 +23068,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -23100,7 +23084,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -23900,7 +23884,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -24092,7 +24076,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -24132,7 +24116,7 @@
         "file_name":"HudiPageSourceProvider.java",
         "context":"IMPORT",
         "target_structure":"import static io.trino.plugin.hudi.HudiSessionProperties.useParquetBloomFilter",
-        "line_number":106,
+        "line_number":107,
         "relative_path":"hudi-trino\/src\/main\/java\/io\/trino\/plugin\/hudi\/HudiPageSourceProvider.java",
         "import_hint":null,
         "clean_import":"static io.trino.plugin.hudi.HudiSessionProperties.useParquetBloomFilter",
@@ -24324,7 +24308,7 @@
         "file_name":"BloomFilterData.java",
         "context":"INSTANTIATION",
         "target_structure":"BloomFilterData",
-        "line_number":101,
+        "line_number":103,
         "relative_path":"hudi-utilities\/src\/main\/java\/org\/apache\/hudi\/utilities\/util\/BloomFilterData.java",
         "import_hint":null,
         "clean_import":"BloomFilterData",
@@ -24364,7 +24348,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -24396,7 +24380,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -26588,7 +26572,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -26620,7 +26604,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -26652,7 +26636,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -26684,7 +26668,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -27292,7 +27276,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -27308,7 +27292,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -27372,7 +27356,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -27436,7 +27420,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -27452,7 +27436,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -27484,7 +27468,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -27740,7 +27724,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -27884,7 +27868,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -27948,7 +27932,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -27980,7 +27964,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28012,7 +27996,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28028,7 +28012,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28044,7 +28028,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Networking & Web",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28172,7 +28156,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28204,7 +28188,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28228,7 +28212,7 @@
         "file_name":"RocksDBStoreTest.java",
         "context":"INSTANTIATION",
         "target_structure":"BloomFilter",
-        "line_number":1688,
+        "line_number":1826,
         "relative_path":"streams\/src\/test\/java\/org\/apache\/kafka\/streams\/state\/internals\/RocksDBStoreTest.java",
         "import_hint":"import org.rocksdb.BloomFilter",
         "clean_import":"BloomFilter",
@@ -28236,7 +28220,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28268,7 +28252,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -28460,7 +28444,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28492,7 +28476,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28540,7 +28524,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28684,7 +28668,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28700,7 +28684,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28732,7 +28716,7 @@
         "pds_algorithm":"Cuckoo Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Modern"
     },
     {
@@ -28876,7 +28860,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28892,7 +28876,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28908,7 +28892,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28924,7 +28908,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28940,7 +28924,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28956,7 +28940,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28972,7 +28956,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -28988,7 +28972,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29004,7 +28988,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29020,7 +29004,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29036,7 +29020,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29052,7 +29036,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29068,7 +29052,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29084,7 +29068,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29100,7 +29084,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29116,7 +29100,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29132,7 +29116,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29148,7 +29132,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29164,7 +29148,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29180,7 +29164,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29212,7 +29196,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29228,7 +29212,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29244,7 +29228,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -29532,7 +29516,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -29540,7 +29524,7 @@
         "file_name":"ParquetFormatReadWriteTest.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.parquet.column.values.bloomfilter.BloomFilter",
-        "line_number":36,
+        "line_number":43,
         "relative_path":"paimon-format\/src\/test\/java\/org\/apache\/paimon\/format\/parquet\/ParquetFormatReadWriteTest.java",
         "import_hint":null,
         "clean_import":"org.apache.parquet.column.values.bloomfilter.BloomFilter",
@@ -29708,7 +29692,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -29916,7 +29900,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -30028,7 +30012,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -30092,7 +30076,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -30156,7 +30140,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -30268,7 +30252,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -30364,7 +30348,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -30380,7 +30364,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -30636,7 +30620,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -30652,7 +30636,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -30668,7 +30652,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -30684,7 +30668,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -30764,7 +30748,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -30972,7 +30956,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -31180,7 +31164,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -31388,7 +31372,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -31724,7 +31708,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -31740,7 +31724,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -31756,7 +31740,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -31772,7 +31756,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -31964,7 +31948,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -32140,7 +32124,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -32156,7 +32140,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -32188,7 +32172,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32244,7 +32228,7 @@
         "file_name":"IndexRegionObserver.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.hadoop.hbase.regionserver.BloomType",
-        "line_number":73,
+        "line_number":74,
         "relative_path":"phoenix-core-server\/src\/main\/java\/org\/apache\/phoenix\/hbase\/index\/IndexRegionObserver.java",
         "import_hint":null,
         "clean_import":"org.apache.hadoop.hbase.regionserver.BloomType",
@@ -32380,7 +32364,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32396,7 +32380,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32412,7 +32396,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32428,7 +32412,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32492,7 +32476,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32508,7 +32492,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32540,7 +32524,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32620,7 +32604,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -32636,7 +32620,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -32668,7 +32652,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -32684,7 +32668,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -32716,7 +32700,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -32844,7 +32828,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32860,7 +32844,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32876,7 +32860,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32892,7 +32876,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32908,7 +32892,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -32924,7 +32908,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33004,7 +32988,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33020,7 +33004,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33036,7 +33020,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33052,7 +33036,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33068,7 +33052,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33084,7 +33068,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33196,7 +33180,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33228,7 +33212,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33260,7 +33244,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33276,7 +33260,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33292,7 +33276,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33308,7 +33292,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33340,7 +33324,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33372,7 +33356,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33404,7 +33388,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33532,7 +33516,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33788,7 +33772,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Analytics & Telemetry",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -33836,7 +33820,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33852,7 +33836,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33900,7 +33884,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -33916,7 +33900,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -34060,7 +34044,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34204,7 +34188,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -34252,7 +34236,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -34364,7 +34348,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34380,7 +34364,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34396,7 +34380,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34412,7 +34396,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34428,7 +34412,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34444,7 +34428,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34460,7 +34444,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34476,7 +34460,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34492,7 +34476,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34508,7 +34492,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34524,7 +34508,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34540,7 +34524,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34556,7 +34540,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34572,7 +34556,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34588,7 +34572,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34604,7 +34588,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34620,7 +34604,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34636,7 +34620,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34652,7 +34636,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34668,7 +34652,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34756,7 +34740,7 @@
         "file_name":"DistinctCountSmartHLLAggregationFunctionTest.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":134,
+        "line_number":139,
         "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLAggregationFunctionTest.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -34764,7 +34748,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34772,7 +34756,7 @@
         "file_name":"DistinctCountSmartHLLAggregationFunctionTest.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":143,
+        "line_number":148,
         "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLAggregationFunctionTest.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -34780,7 +34764,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34788,7 +34772,7 @@
         "file_name":"DistinctCountSmartHLLAggregationFunctionTest.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":144,
+        "line_number":149,
         "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLAggregationFunctionTest.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -34796,7 +34780,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34804,7 +34788,7 @@
         "file_name":"DistinctCountSmartHLLAggregationFunctionTest.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":165,
+        "line_number":170,
         "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLAggregationFunctionTest.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -34812,7 +34796,55 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
+        "tech_generation":"Legacy"
+    },
+    {
+        "repository":"pinot",
+        "file_name":"DistinctCountSketchNullHandlingTest.java",
+        "context":"IMPORT",
+        "target_structure":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
+        "line_number":21,
+        "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSketchNullHandlingTest.java",
+        "import_hint":null,
+        "clean_import":"com.clearspring.analytics.stream.cardinality.HyperLogLog",
+        "raw_class":"HyperLogLog",
+        "pds_algorithm":"HyperLogLog",
+        "pds_category":"Cardinality Estimator",
+        "usage_domain":"Core Application",
+        "implementation_origin":"Third-Party Library",
+        "tech_generation":"Legacy"
+    },
+    {
+        "repository":"pinot",
+        "file_name":"DistinctCountSketchNullHandlingTest.java",
+        "context":"INSTANTIATION",
+        "target_structure":"HyperLogLog",
+        "line_number":130,
+        "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSketchNullHandlingTest.java",
+        "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
+        "clean_import":"HyperLogLog",
+        "raw_class":"HyperLogLog",
+        "pds_algorithm":"HyperLogLog",
+        "pds_category":"Cardinality Estimator",
+        "usage_domain":"Core Application",
+        "implementation_origin":"Third-Party Library",
+        "tech_generation":"Legacy"
+    },
+    {
+        "repository":"pinot",
+        "file_name":"DistinctCountSketchNullHandlingTest.java",
+        "context":"INSTANTIATION",
+        "target_structure":"HyperLogLog",
+        "line_number":132,
+        "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSketchNullHandlingTest.java",
+        "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
+        "clean_import":"HyperLogLog",
+        "raw_class":"HyperLogLog",
+        "pds_algorithm":"HyperLogLog",
+        "pds_category":"Cardinality Estimator",
+        "usage_domain":"Core Application",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -34924,6 +34956,22 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
+        "implementation_origin":"Custom Implementation",
+        "tech_generation":"Legacy"
+    },
+    {
+        "repository":"pinot",
+        "file_name":"BloomFilterSegmentPrunerTest.java",
+        "context":"INSTANTIATION",
+        "target_structure":"BloomFilterSegmentPruner",
+        "line_number":310,
+        "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/pruner\/BloomFilterSegmentPrunerTest.java",
+        "import_hint":null,
+        "clean_import":"BloomFilterSegmentPruner",
+        "raw_class":"BloomFilterSegmentPruner",
+        "pds_algorithm":"Bloom Filter",
+        "pds_category":"Membership Filter",
+        "usage_domain":"Core Application",
         "implementation_origin":"Unresolved (needs import cross-reference)",
         "tech_generation":"Legacy"
     },
@@ -34932,7 +34980,7 @@
         "file_name":"BloomFilterSegmentPrunerTest.java",
         "context":"INSTANTIATION",
         "target_structure":"BloomFilterReaderBuilder",
-        "line_number":293,
+        "line_number":332,
         "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/pruner\/BloomFilterSegmentPrunerTest.java",
         "import_hint":null,
         "clean_import":"BloomFilterReaderBuilder",
@@ -34948,7 +34996,7 @@
         "file_name":"BloomFilterSegmentPrunerTest.java",
         "context":"INSTANTIATION",
         "target_structure":"OnHeapGuavaBloomFilterReader",
-        "line_number":327,
+        "line_number":372,
         "relative_path":"pinot-core\/src\/test\/java\/org\/apache\/pinot\/core\/query\/pruner\/BloomFilterSegmentPrunerTest.java",
         "import_hint":"import org.apache.pinot.segment.local.segment.index.readers.bloom.OnHeapGuavaBloomFilterReader",
         "clean_import":"OnHeapGuavaBloomFilterReader",
@@ -35004,7 +35052,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35068,7 +35116,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35084,7 +35132,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35124,7 +35172,7 @@
         "file_name":"DistinctCountHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":553,
+        "line_number":707,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35132,7 +35180,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35140,7 +35188,7 @@
         "file_name":"DistinctCountHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":569,
+        "line_number":723,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35148,7 +35196,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35156,7 +35204,7 @@
         "file_name":"DistinctCountHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":671,
+        "line_number":825,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35164,7 +35212,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35172,7 +35220,7 @@
         "file_name":"DistinctCountHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":681,
+        "line_number":835,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35180,7 +35228,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35188,7 +35236,7 @@
         "file_name":"DistinctCountHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":696,
+        "line_number":850,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35196,7 +35244,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35204,7 +35252,7 @@
         "file_name":"DistinctCountHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":706,
+        "line_number":860,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35212,7 +35260,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35236,22 +35284,6 @@
         "file_name":"FastHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":131,
-        "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/FastHLLAggregationFunction.java",
-        "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
-        "clean_import":"HyperLogLog",
-        "raw_class":"HyperLogLog",
-        "pds_algorithm":"HyperLogLog",
-        "pds_category":"Cardinality Estimator",
-        "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
-        "tech_generation":"Legacy"
-    },
-    {
-        "repository":"pinot",
-        "file_name":"FastHLLAggregationFunction.java",
-        "context":"INSTANTIATION",
-        "target_structure":"HyperLogLog",
         "line_number":141,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/FastHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
@@ -35260,7 +35292,23 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
+        "tech_generation":"Legacy"
+    },
+    {
+        "repository":"pinot",
+        "file_name":"FastHLLAggregationFunction.java",
+        "context":"INSTANTIATION",
+        "target_structure":"HyperLogLog",
+        "line_number":151,
+        "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/FastHLLAggregationFunction.java",
+        "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
+        "clean_import":"HyperLogLog",
+        "raw_class":"HyperLogLog",
+        "pds_algorithm":"HyperLogLog",
+        "pds_category":"Cardinality Estimator",
+        "usage_domain":"Core Application",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35300,7 +35348,7 @@
         "file_name":"DistinctCountSmartHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":227,
+        "line_number":251,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35308,7 +35356,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35316,7 +35364,7 @@
         "file_name":"DistinctCountSmartHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":235,
+        "line_number":259,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35324,7 +35372,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35332,7 +35380,7 @@
         "file_name":"DistinctCountSmartHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":342,
+        "line_number":366,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35340,7 +35388,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35380,7 +35428,7 @@
         "file_name":"AggregationFunctionUtils.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":772,
+        "line_number":773,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/AggregationFunctionUtils.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLog",
@@ -35388,7 +35436,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35396,7 +35444,7 @@
         "file_name":"AggregationFunctionUtils.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":793,
+        "line_number":794,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/AggregationFunctionUtils.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35404,7 +35452,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35460,7 +35508,7 @@
         "file_name":"DistinctCountSmartHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":266,
+        "line_number":294,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35468,7 +35516,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35476,7 +35524,7 @@
         "file_name":"DistinctCountSmartHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":274,
+        "line_number":302,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35484,7 +35532,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35492,7 +35540,7 @@
         "file_name":"DistinctCountSmartHLLAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLog",
-        "line_number":390,
+        "line_number":418,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountSmartHLLAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLog",
         "clean_import":"HyperLogLog",
@@ -35500,7 +35548,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35524,7 +35572,7 @@
         "file_name":"DistinctCountHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":555,
+        "line_number":711,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35532,7 +35580,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35540,7 +35588,7 @@
         "file_name":"DistinctCountHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":571,
+        "line_number":727,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35548,7 +35596,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35556,7 +35604,7 @@
         "file_name":"DistinctCountHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":662,
+        "line_number":818,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35564,7 +35612,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35572,7 +35620,7 @@
         "file_name":"DistinctCountHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":683,
+        "line_number":839,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35580,7 +35628,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35588,7 +35636,7 @@
         "file_name":"DistinctCountHLLPlusAggregationFunction.java",
         "context":"INSTANTIATION",
         "target_structure":"HyperLogLogPlus",
-        "line_number":706,
+        "line_number":862,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/aggregation\/function\/DistinctCountHLLPlusAggregationFunction.java",
         "import_hint":"import com.clearspring.analytics.stream.cardinality.HyperLogLogPlus",
         "clean_import":"HyperLogLogPlus",
@@ -35596,7 +35644,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35716,7 +35764,7 @@
         "file_name":"ValueBasedSegmentPruner.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.pinot.segment.local.segment.index.readers.bloom.GuavaBloomFilterReaderUtils",
-        "line_number":33,
+        "line_number":34,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/pruner\/ValueBasedSegmentPruner.java",
         "import_hint":null,
         "clean_import":"org.apache.pinot.segment.local.segment.index.readers.bloom.GuavaBloomFilterReaderUtils",
@@ -35732,7 +35780,7 @@
         "file_name":"ValueBasedSegmentPruner.java",
         "context":"IMPORT",
         "target_structure":"import org.apache.pinot.segment.spi.index.reader.BloomFilterReader",
-        "line_number":36,
+        "line_number":37,
         "relative_path":"pinot-core\/src\/main\/java\/org\/apache\/pinot\/core\/query\/pruner\/ValueBasedSegmentPruner.java",
         "import_hint":null,
         "clean_import":"org.apache.pinot.segment.spi.index.reader.BloomFilterReader",
@@ -35804,7 +35852,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35852,7 +35900,7 @@
         "pds_algorithm":"HyperLogLog",
         "pds_category":"Cardinality Estimator",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -35884,7 +35932,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -36028,7 +36076,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -36044,7 +36092,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -36060,7 +36108,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -36076,7 +36124,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -36092,7 +36140,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -36108,7 +36156,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Storage & Databases",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -36140,7 +36188,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"External (Unclassified)",
         "tech_generation":"Legacy"
     },
     {
@@ -36188,7 +36236,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -36204,7 +36252,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -36220,7 +36268,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -36236,7 +36284,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Custom Implementation",
         "tech_generation":"Legacy"
     },
     {
@@ -36380,7 +36428,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {
@@ -36428,7 +36476,7 @@
         "pds_algorithm":"Bloom Filter",
         "pds_category":"Membership Filter",
         "usage_domain":"Core Application",
-        "implementation_origin":"Unresolved (needs import cross-reference)",
+        "implementation_origin":"Third-Party Library",
         "tech_generation":"Legacy"
     },
     {

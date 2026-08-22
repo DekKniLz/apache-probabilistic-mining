@@ -1,12 +1,12 @@
 {
     "Bloom Filter":{
         "n_occurrences":1916,
-        "n_files":666,
-        "n_repos":52
+        "n_files":665,
+        "n_repos":51
     },
     "HyperLogLog":{
-        "n_occurrences":320,
-        "n_files":123,
+        "n_occurrences":323,
+        "n_files":124,
         "n_repos":12
     },
     "Count-Min Sketch":{

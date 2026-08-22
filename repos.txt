@@ -232,7 +232,6 @@ https://github.com/apache/dolphinscheduler.git
 https://github.com/apache/doris-flink-connector.git
 https://github.com/apache/doris-kafka-connector.git
 https://github.com/apache/doris-spark-connector.git
-https://github.com/apache/doris.git
 https://github.com/apache/drill.git
 https://github.com/apache/druid.git
 https://github.com/apache/dubbo-ai.git

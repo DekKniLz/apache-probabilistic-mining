@@ -1,20 +1,20 @@
 {
-    "raw_findings": 2484,
+    "raw_findings": 2487,
     "unknown_algorithm": 197,
-    "classified_findings": 2287,
-    "retention_rate": 0.9207,
+    "classified_findings": 2290,
+    "retention_rate": 0.9208,
     "by_context": {
-        "INSTANTIATION": 1277,
+        "INSTANTIATION": 1280,
         "IMPORT": 1207
     },
     "classified_by_category": {
         "Membership Filter": 1933,
-        "Cardinality Estimator": 320,
+        "Cardinality Estimator": 323,
         "Frequency Sketch": 34
     },
     "classified_by_algorithm": {
         "Bloom Filter": 1916,
-        "HyperLogLog": 320,
+        "HyperLogLog": 323,
         "Count-Min Sketch": 33,
         "Cuckoo Filter": 17,
         "Count Sketch": 1
