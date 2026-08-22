@@ -164,16 +164,19 @@ def infer_usage_domain(path):
 def determine_origin(row):
     """RQ3: Clasifica el origen de la implementacion.
 
-    IMPORTANTE: esta clasificacion es best-effort. Para una INSTANTIATION,
-    no podemos determinar con certeza si la clase proviene de una libreria
-    externa o de codigo propio sin cruzarla con el import resuelto en el
-    mismo archivo (dato que miner.py no captura todavia). Por eso las
-    instanciaciones se marcan como 'Unresolved' en vez de asumir que son
-    internas.
+    Para un IMPORT, el origen se deduce del propio import. Para una
+    INSTANTIATION, el miner intenta capturar el import correspondiente del
+    mismo archivo en 'import_hint'; cuando existe, se usa ese import
+    totalmente cualificado para resolver el origen (mismas reglas que un
+    IMPORT). Solo cuando NO se capturo el import la instanciacion queda como
+    'Unresolved', porque sin el no se puede saber si la clase proviene de una
+    libreria externa o de codigo propio.
     """
     context = row['context']
     target_str = str(row['target_structure']).lower()
     repo_name = str(row['repository']).lower()
+    raw_hint = row.get('import_hint', '')
+    import_hint = '' if pd.isna(raw_hint) else str(raw_hint).lower().strip()
 
     if any(lib in target_str for lib in KNOWN_EXTERNAL_LIBS):
         return 'Third-Party Library'
@@ -184,6 +187,14 @@ def determine_origin(row):
         return 'External (Unclassified)'
 
     if context == 'INSTANTIATION':
+        # Cross-reference the instantiation with its captured import so we can
+        # resolve the origin instead of dropping it as Unresolved.
+        if import_hint:
+            if any(lib in import_hint for lib in KNOWN_EXTERNAL_LIBS):
+                return 'Third-Party Library'
+            if repo_name in import_hint:
+                return 'Custom Implementation'
+            return 'External (Unclassified)'
         return 'Unresolved (needs import cross-reference)'
 
     return 'Unresolved'
